@@ -1,0 +1,9 @@
+requests
+bs4
+lxml
+playwright
+selenium
+stem
+aiohttp
+aiohttp_socks
+fake_useragent
