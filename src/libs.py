@@ -13,6 +13,7 @@ from stem.control import Controller
 from stem import Signal
 
 # playwright 
+from playwright.async_api import Playwright, async_playwright
 
 # data structures
 import numpy as np
