@@ -8,3 +8,8 @@ if path_to_src not in sys.path:
 from libs import *
 
 # exp
+def url_exp():
+    scrapper = URLScrapper()
+    scrapper.main()
+
+url_exp()
