@@ -1,7 +1,7 @@
 requests
 bs4
 lxml
-playwright
+playwright # playwright install chromium
 selenium
 stem
 aiohttp
