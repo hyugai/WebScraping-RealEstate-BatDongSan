@@ -1,9 +1,4 @@
-requests
-bs4
-lxml
+numpy
+pandas
 playwright # playwright install chromium
-selenium
-stem
-aiohttp
-aiohttp_socks
 fake_useragent
