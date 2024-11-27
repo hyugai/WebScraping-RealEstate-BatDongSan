@@ -1,6 +1,5 @@
 # playwright
-from playwright.sync_api import Playwright, Page, async_playwright
-from playwright.async_api import async_playwright
+from playwright.async_api import Playwright, Page, async_playwright
 
 # fake-useragent
 from fake_useragent import UserAgent
@@ -18,4 +17,8 @@ import asyncio
 # others
 import os, re, sys
 
+# target url
 HOMEPAGE = "https://batdongsan.com.vn/"
+
+# user-defined classes, functions
+from scrapers import scrape_pages_hrefs
