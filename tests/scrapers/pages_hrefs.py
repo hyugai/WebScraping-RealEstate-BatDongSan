@@ -7,5 +7,5 @@ if path_to_src not in sys.path:
     sys.path.append(path_to_src)
 from usr_lib import *
 
-# exp
-asyncio.run(scrape_pages_hrefs(HOMEPAGE))
+scrape_pages_hrefs(HOMEPAGE)
+#asyncio.run(scrape_pages_hrefs(HOMEPAGE))

@@ -1,5 +1,6 @@
 # playwright
 from playwright.async_api import Playwright, Page, async_playwright
+from playwright.sync_api import sync_playwright
 
 # fake-useragent
 from fake_useragent import UserAgent
